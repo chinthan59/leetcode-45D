@@ -1,3 +1,2 @@
-import math
-nums = [1, 2, 3, 4]
-print(math.prod(nums))
+con=[chr(i) for i in range(65,91) if chr(i) not in 'aeiouAEIOU'] + [chr(i) for i in range(97,123) if chr(i) not in 'aeiouAEIOU']
+print(con)
